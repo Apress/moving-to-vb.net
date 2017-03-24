@@ -1,0 +1,199 @@
+<IMG height=155 hspace=0 src="http://www.apress.com/books/coverGraphics/medium/1893115976.gif" width=125 align=top border=0>
+<FONT face="Arial,Helvetica,Univers,Zurich BT" size=-1>
+<h2>Errata</h2>
+
+<p>
+<b>Note</b>: The author strongly recommends you download the latest source code which
+includes both errata, code updates, and additional bonus material. The contents
+of the errata page are included here as a convenience.
+</p>
+
+<h1>Changes to the third printing</h1>
+
+<p>The third printing already incorporates changes listed later under
+&quot;Changes to the first and second printing&quot;.</p>
+
+<h3>Chapter 1</h3>
+
+<p>Page 19 - Change first sentence to &quot;While it is too early ...&quot;</p>
+
+<h3>Chapter 4</h3>
+
+<p>Page 25 - Last line in the 3rd bulletted item at the end of the page. Delete
+&quot;the explore&quot;.</p>
+
+<p>Page 32 - Figure 4-4A, there is a missing arrow pointing inward on the right
+hand side (where the gap is in the line).</p>
+
+<p>Page 37 - 5th paragraph, 7th line, 2nd word - delete &quot;more than&quot;.</p>
+
+<p>Page 49 - Line 12 in the listing, change explicitely to explicitly.</p>
+
+<h3>Chapter 5</h3>
+
+<p>Page 59 - Figure 5-2. The arrow from Root should point to the outer
+(Customer) box, not the inner LinkList box. The arrow from the left LinkList box
+should point to the outer (Customer) box, not the inner LinkList box.</p>
+
+<p>Page 91 - 1st paragraph. Change &quot;The new form inherits from the
+System.WinForms.Form object&quot; to &quot;The new form inherits from the
+System.Windows.Forms.Form object&quot;</p>
+
+<h3>Chapter 7</h3>
+
+<p>Page 127 - Set term for the Withdrawn property. Parameters should be after
+the Set, not the End statement (I have no idea how this typo got into the text -
+the sample code is correct).</p>
+
+<p>Page 128 - Set term for the Deposited property. Missing left paren before
+parameter list.</p>
+
+<p>Page 132 - Set term for the NumberOfKids property.&nbsp;</p>
+
+<p>Change:</p>
+
+<pre>If Value&lt;&gt;0 Then</pre>
+
+<p>to</p>
+
+<pre>If Value &lt; 1 Or Value > 50 Then</pre>
+
+<p>Make this change in the FamilyOperation.vb file for the Threading1,
+Threading2, Threading3, Threading4 and Threading5 sample programs.</p>
+
+<p>Page 143 - Paragraph starting &quot;This appears&quot;, 5th line, replace
+&quot;who have every used&quot; with &quot;who have ever used&quot;.<br>
+</p>
+
+<h3>Chapter 10</h3>
+
+<p>Page 292 - 2nd paragraph, last sentence, last word - replace
+&quot;property&quot; with &quot;properly&quot;.</p>
+
+<h3>Chapter 12</h3>
+<p>Page 362 - Function Clone in class WillClone. In the comment replace
+&quot;... you'll usually want to close internal objects&quot; with
+&quot;...you'll usually want to clone internal objects&quot;</p>
+<p>Page 385 - First paragraph, 3rd line, replace &quot;treat a String variable
+as if it were a string&quot; with &quot;treat a String variable as if it were a
+stream&quot;</p>
+<h3>Chapter 15</h3>
+<p>Page 479 - Paragraph 2, 2nd sentence, should begin: &quot;All the hack
+techniques that <b>are</b> typically...&quot;</p>
+<h3>Chapter 16</h3>
+<p>Page 515 - Middle of the page, 1st sentence after the sample configuration
+file. Should begin &quot;This allows and application to specify that it <b>requires</b>
+a specific&quot;</p>
+<p>Page 525 - Third paragraph, should begin: &quot;For instance, you would never
+want to grant unmanaged code permission to <b>execute</b> code
+downloaded...&quot;</p>
+
+<p>&nbsp;</p>
+
+<h1>Changes to the second printing</h1>
+
+<h3>Chapter 3</h3>
+
+<p>Page 21:Footnote #9<br>
+<br>
+                                            The Ebook referenced should be "Visual Basic.NET or C#:
+Which to Choose", not the "Introduction to NT/2000 Security Programming with Visual Basic".</p>
+
+<h1>Changes to the first printing</h1>
+<p>The following changes and corrections apply to the first printing of the book
+&quot;Moving to VB.NET: Strategies, Concepts and Code&quot;.</p>
+<h3>Chapter 2</h3>
+<p>On page 11, the bullet starting with &quot;The Forms Engine&quot;, at the end
+of the first sentence add:</p>
+<p>("Ruby" was the code name for the forms engine developed by Alan Cooper, that ultimately became the forms package for VB1).</p>
+<h3>Chapter 4</h3>
+<p>Change Footnote 4 to:</p>
+<p>Purists will note that the CLR does, of
+course, include methods intended to be used primarily by Visual Basic.</p>
+<p>&nbsp;</p>
+<h3>Chapter 5</h3>
+<p>Page 86, the section named &quot;Dealing with Naming Conflicts&quot;, 2nd
+paragraph, last sentence.</p>
+<p>&quot;The Namespace defines two interfaces&quot; should be &quot;The example
+defines two interfaces&quot;</p>
+<p>Page 90, final line in the page, change &quot;Systems.Winforms&quot; with
+&quot;System.Windows.Form&quot;.</p>
+<p>Page 91, add the following at the end of the first sentence:</p>
+<p>(for now, think of a namespace can be thought of as a way to logically group classes).</p>
+<h3>Chapter 8</h3>
+<p>This is not so much a change as an addition. Visual Basic.NET includes
+support for both multidimensional arrays and jagged arrays (which are not
+mentioned in the chapter).</p>
+<p>It also includes a rather poorly documented alternate syntax for dynamically
+creating arrays which can then be assigned to existing array variables or passed
+as parameters to methods expecting arrays as parameters. Specifically, both of
+the lines shown below create an integer array initialized to {1, 2, 3}. The
+first one declares the variable. The second line creates a new array and assigns
+it to an existing variable.</p>
+<font SIZE="2">
+<pre></font><font SIZE="2" COLOR="#0000ff">Dim</font><font SIZE="2"> a() </font><font SIZE="2" COLOR="#0000ff">As</font><font SIZE="2"> </font><font SIZE="2" COLOR="#0000ff">Integer</font><font SIZE="2"> = {1, 2, 3}
+a = </font><font SIZE="2" COLOR="#0000ff">New</font><font SIZE="2"> </font><font SIZE="2" COLOR="#0000ff">Integer</font><font SIZE="2">() {1, 2, 3}</pre>
+</font>
+<p>Refer to the sample code in the Source\Additions\MoreArrays directory for
+example code demonstrating this feature and both multidimensional and jagged
+arrays. </p>
+<h3>Chapter 15</h3>
+
+<h3>Page 457</h3>
+
+<p>In listing 15.1 change</p>
+
+<pre><font face="Courier New" size="2">Dim ComObject As New dwComFromDotNet_8_0.SampleClass1()</font></pre>
+
+<p>to:</p>
+
+<pre><font face="Courier New" size="2">Dim ComObject As New dwComFromDotNet.SampleClass1</font></pre>
+
+<p>This reflects a last minute change to beta 2. Also, add the line</p>
+
+<pre><font face="Courier New" size="2">newThread.Join()</font></pre>
+<p>before the Console.ReadLine() statement in the Main function. This makes sure
+the message from the other thread can be viewed when the program is run.</p>
+
+<h3>Other Notes</h3>
+
+<p>Interop seems to be less stable than other parts of beta 2. You may see
+Visual Studio crash occasionally when testing the Interop examples. These
+reflect problems in Visual Studio - not the examples. Be sure to allow Visual
+Studio to send error information to Microsoft when this occurs to help them
+resolve these problems.</p>
+
+<h3>Chapter 16</h3>
+
+<p>Few things are more frustrating for an author than when something works fine
+in an intermediate build, but fails during the released beta. Here I am in the
+unusual situation where the code in the book is correct, yet fails compilation
+with a message &quot;catastrophic error - unable to emit code&quot;.</p>
+
+<p>It seems that declarative security in beta 2 of VB.NET is broken -
+specifically, you can't use the SecurityPermission attribute. I'm fairly sure
+it's a compiler bug, partly because it worked with an earlier build, and partly
+because the C# equivalent code works fine. I'll be contacting Microsoft for
+further information and will post updates when I can. Meanwhile, the sample code
+has been modified to use imperative security. The changes are noted in the code.
+(Note: this is based on tests on a clean Windows 2000 pro build).</p>
+
+<h3>Page 527</h3>
+
+<p>The mmc snap-in now no longer prompts you to check the &quot;Exclusive&quot;
+check box. Instead, you are prompted to right click to view the properties of
+the newly added code group, select the general tab, and check the checkbox
+labeled &quot;This policy level will only have the permissions from the permission set associated with this code group&quot;.</p>
+
+<p>Note that in beta 2, you may have trouble using the mmc snap-in - I've been
+seeing a variety of errors (win2k pro). You can use the caspol.exe application
+to set security as well. Refer to the .NET tools documentation for information
+on caspol. You can see four batch files in the source\ch16\CallsUnmanaged2
+directory labeled cas1.bat, cas2.bat, cas3.bat and cas4.bat that I used to
+manually set the code groups for this example. You will need to modify these
+batch files depending on where files are loaded on your system if you wish to
+use them. You should also use the cas1.bat batch file to verify the number of
+the All-Code group before you try to run the other code groups. Take the time to
+read the documentation so you know what you are doing before you use these batch
+files, because incorrect use can make the .NET framework unusable on your
+system.</p>
